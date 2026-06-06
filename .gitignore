@@ -1,0 +1,17 @@
+# Virtual environment — never push this
+venv/
+
+# Environment variables — contains your secret API keys
+.env
+
+# Python cache files — generated automatically, not needed
+__pycache__/
+*.pyc
+*.pyo
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
