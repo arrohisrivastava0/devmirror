@@ -110,6 +110,7 @@ if __name__=="__main__":
     else:
         print("\n--- RESULT -------------------")
         print(f"Username: {data['profile']['username']}")
+        print(f"Account created: {data['profile']['account_created']}")
         print(f"Repos fetched: {len(data['repos'])}")
         print(f"External PRs: {data['external_prs']}")
         print(f"External Issues: {data['external_issues']}")
